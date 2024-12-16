@@ -1,5 +1,3 @@
-public class B extends A{
-    B() {
-        System.out.println("B...");
-    }
+public interface B extends A {
+    void getBData();
 }

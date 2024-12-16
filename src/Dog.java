@@ -1,7 +1,6 @@
 public class Dog extends Animal{
-    void move() {
+    public void move() {
         super.move();
-//        System.out.println("Dog Moving...");
-        System.out.println("fly");
+        System.out.println("Dog Moving...");
     }
 }

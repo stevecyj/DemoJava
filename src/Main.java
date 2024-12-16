@@ -1,5 +1,8 @@
+import tw.com.thishkt.util.Info;
+
 public class Main {
     public static void main(String[] args) {
-        C c = new C();
+        Info info = new Info();
+        info.getData();
     }
 }
